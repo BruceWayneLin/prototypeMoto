@@ -1,0 +1,14 @@
+#intro {
+    display: block;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    color: #fff;
+    background: url(../css/images/bakground.png) center no-repeat #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
