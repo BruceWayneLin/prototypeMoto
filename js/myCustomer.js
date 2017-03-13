@@ -69,13 +69,66 @@ $(function(){
          $('#slide').append(cardsHtml);
      }
      $.mobile.loading('hide');
-  })
+  });
 
-    $(document).on('click', '.productGo', function(){
+ $(document).on('click', '.productOther', function(){
+        $.mobile.loading('show');
+     $(this).parents('.card').removeClass('slideInRight').addClass('slideOutUp');
+     $(this).parents('#slide').find('.slideInRight').removeClass('slideInRight').addClass('flipOutY');
+     var toCallAjax = function() {
+         $('#slide').empty();
+         $('#slide').css({
+             "top": "250px"
+         });
+         $.ajax({
+             url: "js/json/package.json",
+             success: function(result){
+                 var resultItems = JSON.parse(result);
+                 var items = resultItems.items;
+
+                 $.each(items, function(index, item){
+                     var cardsHtmlMore = '';
+                     cardsHtmlMore += '<div class="card col-sm-3 animated slideInRight">';
+                     cardsHtmlMore += '<div class="img-responsive">';
+                     cardsHtmlMore += '<div class="productIntro">';
+
+                     for(var i = 0; i < item.pictureTitle.length; i++){
+                         cardsHtmlMore += '<h2>' + item.pictureTitle[i]  + '</h2>';
+                     }
+
+                     if(item.discount == "true"){
+                         cardsHtmlMore += '<span class="discount">' + item.pictureDisPrice + '</span>';
+                         cardsHtmlMore += '<span>' + item.picturePrice + '</span>';
+                     }else{
+                         cardsHtmlMore += '<span>' + item.picturePrice + '</span>';
+                     }
+                     cardsHtmlMore += '</div>';
+                     cardsHtmlMore += '</div>';
+                     cardsHtmlMore += '<div class="card-block">';
+                     cardsHtmlMore += '<div class="card-content">';
+                     cardsHtmlMore += '<h4 class="card-title">' + item.years + '</h4>';
+                     cardsHtmlMore += '<p class="card-text">' + item['card-text'] + '</p>';
+                     cardsHtmlMore += '</div>';
+                     cardsHtmlMore += '<button class="btn btn-default productGo">選擇</button>';
+                     cardsHtmlMore += '</div>';
+                     cardsHtmlMore += '</div>';
+
+                     $('#slide').append(cardsHtmlMore);
+                 })
+             }});
+     };
+     setTimeout(toCallAjax, 1000);
+
+
+     $.mobile.loading('hide');
+    });
+
+ $(document).on('click', '.productGo', function(){
         $.mobile.loading('show');
         $(this).parents('.card').removeClass('slideInRight').addClass('slideOutUp');
         $(this).parents('#slide').find('.slideInRight').removeClass('slideInRight').addClass('flipOutY');
         $.mobile.loading('hide');
-    })
+
+ });
 
 });
