@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9ff3c4-5620-4967-aec0-2e048f2a882f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/myCustomer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/images/background.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/jui/images/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/animate.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/jui/jquery.mobile.datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/jui/jquery.mobile.datepicker.theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/jui/jqueryDatePickergit.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jui/datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jui/jquery.mobile.datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jui/jqueryMobiledate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/myCustomer.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/myCustomer.css" afterPath="$PROJECT_DIR$/css/myCustomer.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,22 +31,24 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vue/app.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="myCustomer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/myCustomer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="291">
+              <caret line="40" column="51" lean-forward="false" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#42#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="50" column="6" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+            <state relative-caret-position="89">
+              <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="81" selection-end-column="26" />
               <folding>
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -44,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myCustomer.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="myCustomer.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/myCustomer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="496">
+              <caret line="101" column="5" lean-forward="false" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -59,11 +71,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>datepicker</find>
+      <find>date-input-css</find>
+      <find>992</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,8 +99,12 @@
         <option value="$PROJECT_DIR$/vue/app.js" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/indexbackup.html" />
-        <option value="$PROJECT_DIR$/css/myCustomer.css" />
+        <option value="$PROJECT_DIR$/js/jui/jqueryMobiledate.js" />
+        <option value="$PROJECT_DIR$/../../jquery-mobile-datepicker-wrapper-master/index.html" />
+        <option value="$PROJECT_DIR$/css/jui/jqueryDatePickergit.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/myCustomer.js" />
+        <option value="$PROJECT_DIR$/css/myCustomer.css" />
       </list>
     </option>
   </component>
@@ -92,9 +115,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1675" />
-    <option name="y" value="244" />
-    <option name="width" value="1880" />
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
     <option name="height" value="712" />
   </component>
   <component name="ProjectView">
@@ -148,7 +170,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototypeMoto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototypeMoto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototypeMoto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototypeMoto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototypeMoto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototypeMoto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototypeMoto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototypeMoto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -188,14 +282,21 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css/jui/images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/css/images" />
       <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/vue" />
+      <recent name="$PROJECT_DIR$/js/jui" />
+      <recent name="$PROJECT_DIR$/css/jui" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/css/images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.bootstrap-datetimepicker.js">
+    <configuration default="false" name="bootstrap-datetimepicker.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="bootstrap-datetimepicker.js" working-dir="$PROJECT_DIR$/js">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -255,6 +356,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.bootstrap-datetimepicker.js" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.bootstrap-datetimepicker.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -267,22 +376,23 @@
       <option name="presentableId" value="Default" />
       <updated>1489130177380</updated>
       <workItem from="1489130178767" duration="55000" />
-      <workItem from="1489130418465" duration="9867000" />
+      <workItem from="1489130418465" duration="16801000" />
+      <workItem from="1489290691443" duration="23169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9922000" />
+    <option name="totallyTimeSpent" value="40025000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1675" y="244" width="1880" height="712" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="712" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18988703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28038126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38347107" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -307,39 +417,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components/intro.js" />
-    <entry file="file://$PROJECT_DIR$/component/intro.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/includeJs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/includeSrc.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue/components/intro.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -348,28 +425,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/indexbackup.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bootstrap-datetimepicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6600">
+          <caret line="330" column="62" lean-forward="false" selection-start-line="330" selection-start-column="52" selection-end-line="330" selection-end-column="62" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/css/myCustomer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        <state relative-caret-position="40">
+          <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/components/intro.js" />
+    <entry file="file://$PROJECT_DIR$/component/intro.vue" />
+    <entry file="file://$PROJECT_DIR$/src/includeJs.js" />
+    <entry file="file://$PROJECT_DIR$/src/includeSrc.html" />
+    <entry file="file://$PROJECT_DIR$/vue/components/intro.js" />
+    <entry file="file://$PROJECT_DIR$/indexbackup.html" />
     <entry file="file://$PROJECT_DIR$/js/jquery-3.1.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="9578" column="38" lean-forward="false" selection-start-line="9578" selection-start-column="38" selection-end-line="9578" selection-end-column="38" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -387,21 +480,193 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/myCustomer.css">
+    <entry file="file://$PROJECT_DIR$/js/bootstrap-datetimepicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="6480">
+          <caret line="330" column="62" lean-forward="false" selection-start-line="330" selection-start-column="52" selection-end-line="330" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jui/jquery.mobile.datepicker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="56" column="46" lean-forward="false" selection-start-line="56" selection-start-column="46" selection-end-line="56" selection-end-column="46" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../jquery-mobile-datepicker-wrapper-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="42" column="20" lean-forward="false" selection-start-line="42" selection-start-column="20" selection-end-line="43" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/jui/jqueryDatePickergit.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="4722" column="27" lean-forward="true" selection-start-line="4722" selection-start-column="27" selection-end-line="4722" selection-end-column="27" />
+          <folding>
+            <element signature="e#355#1164#2" expanded="false" />
+            <element signature="e#1213#2171#2" expanded="false" />
+            <element signature="e#2224#3249#2" expanded="false" />
+            <element signature="e#3302#4327#2" expanded="false" />
+            <element signature="e#4378#5391#2" expanded="false" />
+            <element signature="e#5442#6456#2" expanded="false" />
+            <element signature="e#6507#7520#2" expanded="false" />
+            <element signature="e#7573#8598#2" expanded="false" />
+            <element signature="e#8651#9676#2" expanded="false" />
+            <element signature="e#9727#10741#2" expanded="false" />
+            <element signature="e#10790#12218#2" expanded="false" />
+            <element signature="e#12266#13073#2" expanded="false" />
+            <element signature="e#13121#14177#2" expanded="false" />
+            <element signature="e#14228#15581#2" expanded="false" />
+            <element signature="e#15633#16961#2" expanded="false" />
+            <element signature="e#17011#18183#2" expanded="false" />
+            <element signature="e#18234#19038#2" expanded="false" />
+            <element signature="e#19089#19894#2" expanded="false" />
+            <element signature="e#19945#20749#2" expanded="false" />
+            <element signature="e#20800#21605#2" expanded="false" />
+            <element signature="e#21836#22639#2" expanded="false" />
+            <element signature="e#22688#23942#2" expanded="false" />
+            <element signature="e#23991#25038#2" expanded="false" />
+            <element signature="e#25089#26179#2" expanded="false" />
+            <element signature="e#26229#27290#2" expanded="false" />
+            <element signature="e#27338#28355#2" expanded="false" />
+            <element signature="e#28402#29402#2" expanded="false" />
+            <element signature="e#29455#31013#2" expanded="false" />
+            <element signature="e#31064#31866#2" expanded="false" />
+            <element signature="e#31914#34945#2" expanded="false" />
+            <element signature="e#34993#37179#2" expanded="false" />
+            <element signature="e#37228#38072#2" expanded="false" />
+            <element signature="e#38120#39170#2" expanded="false" />
+            <element signature="e#39218#40383#2" expanded="false" />
+            <element signature="e#40435#41349#2" expanded="false" />
+            <element signature="e#41397#42386#2" expanded="false" />
+            <element signature="e#42434#43202#2" expanded="false" />
+            <element signature="e#43251#43996#2" expanded="false" />
+            <element signature="e#44050#44798#2" expanded="false" />
+            <element signature="e#44847#46275#2" expanded="false" />
+            <element signature="e#46323#47378#2" expanded="false" />
+            <element signature="e#47427#48875#2" expanded="false" />
+            <element signature="e#48926#49952#2" expanded="false" />
+            <element signature="e#50003#51345#2" expanded="false" />
+            <element signature="e#51395#52471#2" expanded="false" />
+            <element signature="e#52519#53574#2" expanded="false" />
+            <element signature="e#53622#54430#2" expanded="false" />
+            <element signature="e#54477#55541#2" expanded="false" />
+            <element signature="e#55589#57123#2" expanded="false" />
+            <element signature="e#57172#58043#2" expanded="false" />
+            <element signature="e#58157#58930#2" expanded="false" />
+            <element signature="e#59026#59948#2" expanded="false" />
+            <element signature="e#60048#61039#2" expanded="false" />
+            <element signature="e#61143#62146#2" expanded="false" />
+            <element signature="e#62250#63253#2" expanded="false" />
+            <element signature="e#63353#64345#2" expanded="false" />
+            <element signature="e#64445#65436#2" expanded="false" />
+            <element signature="e#65536#66528#2" expanded="false" />
+            <element signature="e#66632#67635#2" expanded="false" />
+            <element signature="e#67739#68742#2" expanded="false" />
+            <element signature="e#68838#70244#2" expanded="false" />
+            <element signature="e#70338#71109#2" expanded="false" />
+            <element signature="e#71203#72223#2" expanded="false" />
+            <element signature="e#72323#73637#2" expanded="false" />
+            <element signature="e#73739#75045#2" expanded="false" />
+            <element signature="e#75143#76276#2" expanded="false" />
+            <element signature="e#76376#77144#2" expanded="false" />
+            <element signature="e#77244#78013#2" expanded="false" />
+            <element signature="e#78113#78881#2" expanded="false" />
+            <element signature="e#78981#79750#2" expanded="false" />
+            <element signature="e#79941#80708#2" expanded="false" />
+            <element signature="e#80804#82036#2" expanded="false" />
+            <element signature="e#82132#83143#2" expanded="false" />
+            <element signature="e#83243#84311#2" expanded="false" />
+            <element signature="e#84409#85448#2" expanded="false" />
+            <element signature="e#85542#86537#2" expanded="false" />
+            <element signature="e#86629#87593#2" expanded="false" />
+            <element signature="e#87697#89233#2" expanded="false" />
+            <element signature="e#89333#90099#2" expanded="false" />
+            <element signature="e#90193#93202#2" expanded="false" />
+            <element signature="e#93296#95460#2" expanded="false" />
+            <element signature="e#95556#96367#2" expanded="false" />
+            <element signature="e#96461#97489#2" expanded="false" />
+            <element signature="e#97583#98726#2" expanded="false" />
+            <element signature="e#98828#99706#2" expanded="false" />
+            <element signature="e#99800#100750#2" expanded="false" />
+            <element signature="e#100844#101576#2" expanded="false" />
+            <element signature="e#101672#102381#2" expanded="false" />
+            <element signature="e#102487#103199#2" expanded="false" />
+            <element signature="e#103295#104672#2" expanded="false" />
+            <element signature="e#104766#105799#2" expanded="false" />
+            <element signature="e#105895#107307#2" expanded="false" />
+            <element signature="e#107407#108394#2" expanded="false" />
+            <element signature="e#108494#109814#2" expanded="false" />
+            <element signature="e#109936#110976#2" expanded="false" />
+            <element signature="e#111070#112089#2" expanded="false" />
+            <element signature="e#112183#112955#2" expanded="false" />
+            <element signature="e#113047#114089#2" expanded="false" />
+            <element signature="e#114183#115695#2" expanded="false" />
+            <element signature="e#115791#116623#2" expanded="false" />
+            <element signature="e#198792#198881#2" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jui/jqueryMobiledate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="30542" column="4" lean-forward="false" selection-start-line="30542" selection-start-column="4" selection-end-line="30542" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="50" column="6" lean-forward="true" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+        <state relative-caret-position="89">
+          <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="81" selection-end-column="26" />
           <folding>
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/myCustomer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="40" column="51" lean-forward="false" selection-start-line="40" selection-start-column="51" selection-end-line="40" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#42#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/myCustomer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="101" column="5" lean-forward="false" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,14 +1,186 @@
 #intro {
     display: block;
     height: auto;
-    padding: 100px 0;
     text-align: center;
-    position: relative;
-    top: 50px;
     color: #fff;
-    background: url(../css/images/bakground.png) center no-repeat #000;
+    background: url(../css/images/bakground.png) bottom center no-repeat #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    min-height: 685px;
+}
+
+.firstIntro {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    z-index: 15;
+    top: 35%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+}
+
+button.navbar-toggle.ui-btn.ui-shadow.ui-corner-all {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    button.navbar-toggle.ui-btn.ui-shadow.ui-corner-all {
+        display: initial;
+        max-width: 100px;
+        margin: 5px 5px 5px 5px;
+    }
+}
+
+.intro-body .date-input {
+    text-align: center;
+    font-size: 16px;
+}
+
+#submitedBtn {
+    max-width: 120px;
+    margin-top: 50px;
+    position: relative;
+    left: 25%;
+}
+
+.card .img-responsive {
+  background-color: #777;
+  width: 398px;
+  height: 180px;
+}
+
+.card .img-responsive h1 {
+    position: relative;
+    top: 40%;
+}
+
+div.card.col-sm-3 {
+    position: relative;
+    top: -220px;
+}
+
+@media screen
+    and (max-width: 992px)
+    and (min-width: 590px) {
+    div.card.col-sm-3 {
+        min-width: 360px;
+        top: -185px;
+    }
+}
+
+.productIntro {
+    position: relative;
+    top: 60px;
+}
+.productIntroFourth {
+     position: relative;
+     top: 35px;
+ }
+
+.productIntroFourth h2 {
+    position: relative;
+    top: 35px;
+}
+
+@media screen and (max-width: 1200px){
+    div.productIntro h2 {
+        font-size: 20px;
+    }
+    div.productIntro span {
+        font-size: 16px;
+    }
+    .productIntroFourth h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .productIntro {
+        top: 33px;
+    }
+}
+
+div.card-block {
+    padding: 20px 40px 40px 40px;
+    border: 1px solid #777;
+    min-height: 230px;
+    width: auto;
+}
+
+@media screen and (max-width: 768px)
+              and (min-width: 570px)
+{
+    div.card-block {
+        max-width: 398px;
+        width: auto;
+    }
+    div.card.col-sm-3 {
+        min-width: 360px;
+        top: -185px;
+        left: 20%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    div.card-block {
+        width: auto;
+    }
+}
+
+@media screen and (min-width: 458px){
+    div.card-block {
+        max-width: 398px;
+    }
+}
+
+@media screen and (min-width: 460px){
+    div.card.col-sm-3 {
+        top: -180px;
+    }
+}
+
+@media screen and (min-width: 480px)
+              and (max-width: 568px)
+{
+    div.card.col-sm-3 {
+        left: 7%;
+    }
+}
+
+@media screen and (min-width: 568px)
+and (max-width: 625px)
+{
+    div.card.col-sm-3 {
+        left: 12%;
+    }
+}
+
+@media screen and (min-width: 625px)
+and (max-width: 767px)
+{
+    div.card.col-sm-3 {
+        left: 20%;
+    }
+}
+
+div.card-block .btn-default {
+
+}
+
+.productIntro span {
+    display: block;
+}
+
+.discount {
+    text-decoration: line-through;
+}
+
+.navbar-brand.page-scroll.ui-link {
+    color: #777777;
+}
+
+.card-content {
+    min-height: 85px;
 }
