@@ -72,7 +72,7 @@ $(function(){
   });
 
  $(document).on('click', '.productOther', function(){
-        $.mobile.loading('show');
+     $.mobile.loading('show');
      $(this).parents('.card').removeClass('slideInRight').addClass('slideOutUp');
      $(this).parents('#slide').find('.slideInRight').removeClass('slideInRight').addClass('flipOutY');
      var toCallAjax = function() {
@@ -80,6 +80,7 @@ $(function(){
          $('#slide').css({
              "top": "250px"
          });
+
          $.ajax({
              url: "js/json/package.json",
              success: function(result){
@@ -127,6 +128,24 @@ $(function(){
         $.mobile.loading('show');
         $(this).parents('.card').removeClass('slideInRight').addClass('slideOutUp');
         $(this).parents('#slide').find('.slideInRight').removeClass('slideInRight').addClass('flipOutY');
+        setTimeout(function(){
+            $('#slide').empty();
+            $('#slide').css({
+                "top": "283px"
+            });
+            $('.intro-body').css({
+                "height": "auto"
+            });
+            var registerHtml = '';
+            registerHtml += '<div class="loginDiv col-sm-6">';
+            registerHtml += '<button id="loginBtn" class="btn btn-default"><h1>登入</h1></button>';
+            registerHtml += '</div>';
+            registerHtml += '<div class="registerDiv col-sm-6">';
+            registerHtml += '<button id="registerBtn" class="btn btn-primary"><h1>註冊</h1></button>';
+            registerHtml += '</div>';
+
+            $('#slide').append(registerHtml);
+        }, 1000);
         $.mobile.loading('hide');
 
  });

@@ -16,7 +16,7 @@
     width: 300px;
     height: 200px;
     z-index: 15;
-    top: 35%;
+    top: 30%;
     left: 50%;
     margin: -100px 0 0 -150px;
 }
@@ -187,4 +187,18 @@ div.card-block .btn-default {
 
 #slide .card:nth-child(5) .card-content{
     margin-bottom: 10px;
+}
+
+#slide .loginDiv {
+    padding: 10px;
+    display: inline-block;
+}
+
+#slide .registerDiv {
+    padding: 10px;
+    display: inline-block;
+}
+
+.loginDiv h1 {
+    color: #777777;
 }
