@@ -9,6 +9,7 @@
     background-size: cover;
     -o-background-size: cover;
     min-height: 685px;
+    max-height: 685px;
 }
 
 .firstIntro {
@@ -201,4 +202,74 @@ div.card-block .btn-default {
 
 .loginDiv h1 {
     color: #777777;
+}
+
+.card-text {
+    color: #777777;
+}
+
+#registerBtn {
+    color: #fff;
+    background-color: #989797;
+    border-color: #8e8e8e;
+}
+
+#registerFormDiv, #vehiFormDiv  {
+    margin-top: 80px;
+    padding: 0px 40px;
+}
+
+#registerFormDiv .ui-checkbox {
+   display: inline-block;
+ }
+
+div.man {
+    background-image: url('../css/images/man.png');
+    height: 300px;
+    width: 540px;
+    position: fixed;
+    top: 500px;
+    right: -400px;
+    background-size: 150px 150px;
+    background-repeat: no-repeat;
+    z-index: 999;
+}
+
+div.talkBubble {
+    position: relative;
+    width: 140px;
+    height: 92px;
+    text-align: center;
+    line-height: 100px;
+    background-color: #fff;
+    border: 4px solid #666;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-box-shadow: 2px 2px 4px #888;
+    -moz-box-shadow: 2px 2px 4px #888;
+    box-shadow: 2px 2px 4px #888;
+    top: -42px;
+    left: -100px;
+    z-index: 999;
+}
+
+#contentInfo {
+    margin-top: 75px;
+}
+
+#insuraInfo ul {
+    list-style: none;
+}
+
+.checkInfo {
+    padding: 0px 10px;
+}
+
+#ui-datepicker-div {
+    z-index: 999 !important;
+}
+
+#payCharge {
+    padding: 0px 25%;
 }

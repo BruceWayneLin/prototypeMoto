@@ -80,12 +80,16 @@ $(function(){
          $('#slide').css({
              "top": "250px"
          });
+         $('#intro').css({
+             "margin-top": "50px",
+         });
 
          $.ajax({
              url: "js/json/package.json",
              success: function(result){
-                 var resultItems = JSON.parse(result);
-                 var items = resultItems.items;
+                 // when upload need to change json parse
+                 var end = JSON.parse(result);
+                 var items = end.items;
 
                  $.each(items, function(index, item){
                      var cardsHtmlMore = '';
@@ -119,8 +123,6 @@ $(function(){
              }});
      };
      setTimeout(toCallAjax, 1000);
-
-
      $.mobile.loading('hide');
     });
 
@@ -147,7 +149,15 @@ $(function(){
             $('#slide').append(registerHtml);
         }, 1000);
         $.mobile.loading('hide');
-
  });
+
+    $(document).on('click', '#registerBtn', function(){
+        $.mobile.loading('show');
+        $(this).addClass('animated fadeOutUp');
+        setTimeout(function(){
+            window.location = './registerForm.html'
+        }, 1000);
+        $.mobile.loading('hide');
+    });
 
 });
