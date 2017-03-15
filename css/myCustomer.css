@@ -229,7 +229,7 @@ div.man {
     height: 300px;
     width: 540px;
     position: fixed;
-    top: 500px;
+    top: 400px;
     right: -400px;
     background-size: 150px 150px;
     background-repeat: no-repeat;
@@ -239,7 +239,7 @@ div.man {
 div.talkBubble {
     position: relative;
     width: 140px;
-    height: 92px;
+    height: 45px;
     text-align: center;
     line-height: 100px;
     background-color: #fff;
@@ -250,7 +250,7 @@ div.talkBubble {
     -webkit-box-shadow: 2px 2px 4px #888;
     -moz-box-shadow: 2px 2px 4px #888;
     box-shadow: 2px 2px 4px #888;
-    top: -42px;
+    top: 7px;
     left: -100px;
     z-index: 999;
 }
