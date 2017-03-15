@@ -6,7 +6,9 @@ $(function(){
  $(document).on('click', '#submitedBtn', function(){
    $.mobile.loading('show');
    $('#firstSlide').addClass('animated fadeOutLeft');
-   $('#slide').removeClass('firstIntro');
+   $(this).addClass('animated fadeOutUp');
+
+     $('#slide').removeClass('firstIntro');
 
    for(var i = 0; i < 4; i++)
      {
@@ -40,11 +42,11 @@ $(function(){
          cardsHtml += '<div class="card-block">';
          cardsHtml += '<div class="card-content">';
          if(i == 0 || i == 2){
-             cardsHtml += '<h4 class="card-title">1 year</h4>';
+             cardsHtml += '<h3 class="card-title">1 year</h3>';
          }else if(i == 1){
-             cardsHtml += '<h4 class="card-title">2 year</h4>';
+             cardsHtml += '<h3 class="card-title">2 year</h3>';
          }else if(i == 3){
-             cardsHtml += '<h4 class="card-title"></h4>';
+             cardsHtml += '<h3 class="card-title"></h3>';
          }
 
          if(i == 0){
@@ -81,7 +83,7 @@ $(function(){
              "top": "250px"
          });
          $('#intro').css({
-             "margin-top": "50px",
+             "margin-top": "50px"
          });
 
          $.ajax({
@@ -111,7 +113,7 @@ $(function(){
                      cardsHtmlMore += '</div>';
                      cardsHtmlMore += '<div class="card-block">';
                      cardsHtmlMore += '<div class="card-content">';
-                     cardsHtmlMore += '<h4 class="card-title">' + item.years + '</h4>';
+                     cardsHtmlMore += '<h3 class="card-title">' + item.years + '</h3>';
                      cardsHtmlMore += '<p class="card-text">' + item['card-text'] + '</p>';
                      cardsHtmlMore += '</div>';
                      cardsHtmlMore += '<button class="btn btn-default productGo">選擇</button>';
@@ -157,6 +159,32 @@ $(function(){
         setTimeout(function(){
             window.location = './registerForm.html'
         }, 1000);
+        $.mobile.loading('hide');
+    });
+
+    $(document).on('click', '#loginBtn', function(){
+        $.mobile.loading('show');
+        $(this).addClass('animated fadeOutUp');
+        setTimeout(function(){
+            window.location = './login.html'
+        }, 1000);
+        $.mobile.loading('hide');
+    });
+
+    $(document).on('click', '.cancelbtn', function(){
+        $.mobile.loading('show');
+        $(this).addClass('animated fadeOutUp');
+        setTimeout(function(){
+            window.location = './index.html'
+        }, 1000);
+        $.mobile.loading('hide');
+    });
+
+
+    $(document).on('click', '#loginBakIndex', function(){
+        $.mobile.loading('show');
+        $(this).addClass('animated fadeOutUp');
+        window.location = './index.html';
         $.mobile.loading('hide');
     });
 

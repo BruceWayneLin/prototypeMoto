@@ -2,7 +2,7 @@
  * Created by wayne on 2017/03/14.
  */
 $(function(){
-    var nu = 0;
+    var nu = -1;
 
     setInterval(function(){
         if( nu == 13 ){

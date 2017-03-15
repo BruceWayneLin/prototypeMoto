@@ -52,6 +52,17 @@ $(function(){
         $('#payCharge').addClass('animated rotateInDownLeft');
         $('#talkingOwl').empty();
         $.mobile.loading('hide');
+    });
+
+    $(document).on('click', '#PayGo', function(){
+        $.mobile.loading('show');
+        $('#payCharge').addClass('animated slideOutRight');
+        setTimeout(function(){
+            window.location = './appreciation.html';
+        }, 100);
+        $.mobile.loading('hide');
     })
+
+
 
 });

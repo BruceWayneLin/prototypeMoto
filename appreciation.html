@@ -18,7 +18,6 @@
     <script type="text/javascript" src="js/jui/jquery.mobile.datepicker.js"></script>
     <script type="text/javascript" src="js/jui/datepicker.js"></script>
     <script type="text/javascript" src="js/myCustomer.js"></script>
-    <script type="text/javascript" src="js/myUiComf.js"></script>
 
     <title>Motobike Insurance</title>
 </head>
@@ -59,48 +58,24 @@
     <!-- /.container -->
 </nav>
 
-<div class="container">
+<div class="appre container">
     <div class="row">
-        <div id="talkingOwl" class="col-lg-12">
-            <div class="man hide">
-                <div class="talkBubble"></div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div id="contentInfo" class="col-lg-12">
-            <div id="payCharge"  class="form-group row hide">
-                <ul class="list-group">
-                    <li class="list-group-item">信用卡資訊:</li>
-                    <li class="list-group-item">
-                        <input class="form-control" type="text" placeholder="請輸入您的信用卡號碼" id="creditcardNu" maxlength="16">
-                    </li>
-                    <li class="list-group-item">
-                        <input class="form-control" type="text" placeholder="請輸入您的信用卡有效日期(4碼)" id="validThru" maxlength="4">
-                    </li>
-                    <li class="list-group-item">
-                        <input class="form-control" type="text" placeholder="請輸入您的信用卡安全碼" id="cvvCode" maxlength="3">
-                        <a href="https://www.cvvnumber.com/cvv.html"><span class="help-block">什麼是安全碼？</span></a>
-                    </li>
-                    <li class="list-group-item">
-                        <button id="PayGo" class="btn btn-primary">付費</button>
-                    </li>
-                </ul>
-            </div>
-
-            <div id="insuraInfo" class="jumbotron">
-                <ul class="list-group text-center">
-                    <li class="list-group-item">保險內容</li>
-                    <li class="list-group-item">Insurance Info</li>
-                    <li class="list-group-item">Personal Info</li>
-                    <li class="list-group-item">Vehicle Info</li>
-                </ul>
-                <div class="checkInfo">
-                    <h4>原價: <span class="discount">899</span></h4>
-                    <h4>- 200</h4>
-                    <h4>NT: 699</h4>
+        <div class="col-sm-12">
+            <div class="appreContent highlight">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <u><h1>凱萊</h1></u>
+                    </div>
                 </div>
-                <button id="goingToPay" name="" class="btn btn-primary">前往付費</button>
+                <div class="row">
+                    <div id="thanksContent" class="col-sm-12">
+                        <p>感謝您購買，xxxxxxxxxxxxx</p>
+                        <p>xxxxxxxxxx，與填寫，非常感謝。</p>
+                    </div>
+                    <div style="padding: 10px 40%;">
+                        <button onclick="window.location = './index.html'">確認並回首頁</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
