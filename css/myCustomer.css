@@ -303,7 +303,8 @@ div.talkBubble {
 }
 
 #thanksContent {
-    padding-left: 35%;
+    padding-left: 13%;
+    padding-right: 13%;
     padding-top: 20px;
     padding-bottom: 20px;
 }
