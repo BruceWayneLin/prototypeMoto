@@ -3,7 +3,7 @@
     height: auto;
     text-align: center;
     color: #fff;
-    background: url(../css/images/bakground.png) bottom center no-repeat #000;
+    background: url(../css/images/bakground.jpeg) bottom center no-repeat #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -315,4 +315,17 @@ div.talkBubble {
 
 .help-block .ui-checkbox {
     top: 8px;
+}
+
+a.navbar-brand {
+    background-image: url('../css/images/logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 45px;
+    margin: 2px;
+}
+
+.navbar-default {
+    min-height: 60px;
 }
