@@ -498,12 +498,10 @@ div.col-xs-12.text-center h4 {
         min-height: unset;
     }
     .intro-body .container {
-        padding-top: 56px;
+        padding-top: 170px;
     }
     #firstSlide #submitedBtn {
         max-width: 120px;
-        position:relative;
-        left: 70px;
     }
 }
 
