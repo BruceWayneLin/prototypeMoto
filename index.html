@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/jui/jquery.mobile.datepicker.theme.css">
     <link rel="stylesheet" href="css/jui/jqueryDatePickergit.css">
     <link rel="stylesheet" href="css/animate.min.css">
+
     <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="js/tether.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
@@ -18,6 +19,9 @@
     <script type="text/javascript" src="js/jui/jquery.mobile.datepicker.js"></script>
     <script type="text/javascript" src="js/jui/datepicker.js"></script>
     <script type="text/javascript" src="js/myCustomer.js"></script>
+    <script type="text/javascript" src="js/jquery.textillate.js"></script>
+    <script type="text/javascript" src="js/jquery.lettering.js"></script>
+
 
 
     <title>Motobike Insurance</title>
@@ -31,9 +35,11 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                 Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand page-scroll" onclick="location.reload();" href="#">
-                <span class="light" ></span>
-            </a>
+            <div id="brandDiv">
+                <a class="navbar-brand page-scroll" onclick="location.reload();" href="#">
+                    <span class="light" ></span>
+                </a>
+            </div>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -58,40 +64,81 @@
     </div>
     <!-- /.container -->
 </nav>
-
+<div id="introDiv">
 <header id="intro">
     <div class="intro-body">
         <div class="container">
             <div class="row">
-                <div id="slide" class="firstIntro col-md-12">
+                <div id="slide" class="firstIntro col-lg-12">
                     <div id="firstSlide">
-                        <h1 class="brand-heading">CareLine Moto Insurance</h1>
-                        <form action="">
-                            <div class="form-group">
-                                <select class="selectpicker">
-                                    <option>選擇車輛種類</option>
-                                    <option>綠牌1~50cc</option>
-                                    <option>白牌51~250cc</option>
-                                    <option>黃牌251cc</option>
-                                    <option>紅牌251cc以上</option>
-                                </select>
-                                <input type="text" class="date-input" data-inline="false" data-role="date" placeholder="請輸入您的生日">
-                                <button type="button" id="submitedBtn" class="btn btn-default">送出</button>
+                        <div id="selectedCardCc" class="hide">
+                            <div class="row text-center"> 
+                                <div class="col-lg-12"> 
+                                    <div class="col-lg-5"></div>
+                                    <div class="col-lg-2">  <input type="text" class="date-input" data-inline="false"
+                                                                   data-role="date" placeholder="請輸入您的生日"> 
+                                    </div>
+                                    <div class="col-lg-5"></div>
+                                </div>
                             </div>
-                        </form>
+                            <div class="row text-center"> 
+                                <div class="col-lg-12"> 
+                                    <div class="col-lg-5"></div>
+                                    <div class="col-lg-2"> 
+                                        <button type="button" id="submitedBtn" class="btn btn-default">送出</button>
+                                    </div>
+                                    <div class="col-lg-5"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div id="slideOfCardCc">
+                        <div class="row text-center">
+                            <h1 class="brand-heading tlt">CareLine Moto Insurance</h1>
+                        </div>
+                        <div class="row text-center">
+                            <div class="row">
+                                <div class="col-lg-12 btnContainer">
+                                    <div class="col-xs-1"></div>
+                                    <div class="col-xs-5">
+                                        <button class="btn-success btn-small">1-50CC</button>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <button class="btn-white btn-small">51-250CC</button>
+                                    </div>
+                                    <div class="col-xs-1"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 btnContainer">
+                                    <div class="col-xs-1"></div>
+                                    <div class="col-xs-5">
+                                        <button class="btn-warning btn-small">250-550CC</button>
+                                    </div>
+                                    <div class="col-xs-5">
+                                        <button class=" btn-danger  btn-small">550CC+</button>
+                                    </div>
+                                    <div class="col-xs-1"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 text-center" style="margin-top:27px;"><h4>選擇您的機車ＣＣ數或車牌顏色</h4></div>
+                            </div>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </header>
-
-
-
-<div class="container">
-    <div class="row">
-
-    </div>
+</div>
+<div class="container footer-container">
+    <footer class="footer">
+        <div class="container text-center">
+            <p class="text-muted">Copyright© 2017 Care Line Co., Ltd.  All Right Reserved.</p>
+        </div>
+    </footer>
 </div>
 
 </body>

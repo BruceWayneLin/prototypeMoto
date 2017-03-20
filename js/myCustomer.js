@@ -3,6 +3,10 @@
  */
 $(function(){
 
+ $('.tlt').textillate({
+     in: { effect: 'fadeInLeft' },
+ });
+
  $(document).on('click', '#submitedBtn', function(){
    $.mobile.loading('show');
    $('#firstSlide').addClass('animated fadeOutLeft');
@@ -187,5 +191,20 @@ $(function(){
         window.location = './index.html';
         $.mobile.loading('hide');
     });
+
+    $(document).on('click', '.btnContainer button', function(){
+        $.mobile.loading('show');
+        $(this).addClass('animated fadeOutUp');
+        setTimeout(function(){
+            $('#slideOfCardCc').hide();
+            $('#selectedCardCc').removeClass('hide');
+
+        }, 1000);
+
+
+
+        $.mobile.loading('hide');
+    });
+
 
 });
