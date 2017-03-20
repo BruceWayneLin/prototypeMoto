@@ -485,11 +485,13 @@ div.col-xs-12.text-center h4 {
 #selectedCardCc {
     background-color: rgba(0, 0, 0, 0.46);
     padding-bottom: 35px;
+    margin: auto;
 }
 
 #selectedCardCc input.date-input {
     background-color: black;
     text-shadow: none;
+    color: white;
 }
 
 @media screen and (max-width:320px){
