@@ -30,7 +30,6 @@ button.navbar-toggle.ui-btn.ui-shadow.ui-corner-all {
 }
 
 .card .img-responsive {
-  background-color: #777;
   width: 398px;
   height: 180px;
 }
@@ -42,14 +41,15 @@ button.navbar-toggle.ui-btn.ui-shadow.ui-corner-all {
 
 div.card.col-sm-3 {
     position: relative;
-    top: -220px;
+    top: -308px;
+    margin-bottom: 40px;
 }
 
 @media screen
     and (max-width: 992px)
     and (min-width: 590px) {
     div.card.col-sm-3 {
-        min-width: 360px;
+        min-width: 350px;
         top: -185px;
     }
 }
@@ -87,11 +87,7 @@ div.card.col-sm-3 {
 }
 
 div.card-block {
-    padding: 16px 40px 40px 40px;
-    border: 1px solid #777;
-    min-height: 230px;
-    width: auto;
-    background-color: #f5f5f5;
+    margin-top: 30px;
 }
 
 @media screen and (max-width: 768px)
@@ -110,12 +106,14 @@ div.card-block {
 
 @media screen and (max-width: 480px){
     div.card-block {
+        margin-top: 30px;
         width: auto;
     }
 }
 
 @media screen and (min-width: 458px){
     div.card-block {
+        margin-top: 30px;
         max-width: 398px;
     }
 }
@@ -131,6 +129,7 @@ div.card-block {
 {
     div.card.col-sm-3 {
         left: 7%;
+        top: -275px;
     }
 }
 
@@ -164,6 +163,13 @@ and (max-width: 767px)
 
 .card-content {
     min-height: 116px;
+    margin: 0px 7px;
+    background-color: #ebf2ff;
+    padding: 1px;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    min-height: 240px;
 }
 
 #slide .card:nth-child(5) .card-content{
@@ -263,11 +269,9 @@ div.talkBubble {
 }
 
 .card-text {
-    min-height: 80px;
 }
 
 .card-content p {
-    padding-top: 16px;
     font-size: 16px;
 }
 
@@ -467,6 +471,15 @@ div.btnContainer {
     }
 }
 
+@media screen and (max-width:1200px){
+    div#slide.col-lg-12 {
+        padding: 0px;
+    }
+    .card.col-sm-3 {
+        margin-right:17px;
+    }
+}
+
 @media screen and (max-width:580px){
     div.btnContainer {
         padding: 0px 0%;
@@ -483,7 +496,6 @@ div.col-xs-12.text-center h4 {
 }
 
 #selectedCardCc {
-    background-color: rgba(0, 0, 0, 0.46);
     padding-bottom: 35px;
     margin: auto;
 }
@@ -513,7 +525,29 @@ div.col-xs-12.text-center h4 {
     }
     #firstSlide #submitedBtn {
         max-width: 120px;
-        position:relative;
-        left: 70px;
+        margin: auto;
     }
+}
+
+body button#submitedBtn {
+    color: #E84566;
+    max-width: 250px;
+    margin: auto;
+}
+
+.box h1, .box h2, .box h3, .box h4, .box span, .box p {
+    text-shadow: none;
+}
+
+.card-block button {
+    position: absolute;
+    left: 103px;
+    bottom: 40px;
+    color: #e84566;
+    border-color: #f3a2b3;
+}
+
+#selectedCardCc div.ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset {
+    max-width: 250px;
+    margin: auto;
 }

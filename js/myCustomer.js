@@ -11,13 +11,22 @@ $(function(){
    $.mobile.loading('show');
    $('#firstSlide').addClass('animated fadeOutLeft');
    $(this).addClass('animated fadeOutUp');
-
+     $('.intro-body .container').css({
+         "padding-top" : "56px",
+     });
      $('#slide').removeClass('firstIntro');
 
    for(var i = 0; i < 4; i++)
      {
          var cardsHtml  = '';
          cardsHtml += '<div class="card col-sm-3 animated slideInRight">';
+         cardsHtml += '<div class="box">';
+         cardsHtml += '<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">';
+         cardsHtml += '<line class="top" x1="0" y1="0" x2="900" y2="0"/>';
+         cardsHtml += '<line class="left" x1="0" y1="460" x2="0" y2="-920"/>';
+         cardsHtml += '<line class="bottom" x1="300" y1="460" x2="-600" y2="460"/>';
+         cardsHtml += '<line class="right" x1="300" y1="0" x2="300" y2="1380"/>';
+         cardsHtml += '</svg>';
          cardsHtml += '<div class="img-responsive">';
 
          if(i == 3){
@@ -26,39 +35,39 @@ $(function(){
              cardsHtml += '<div class="productIntro">';
          }
 
-         if(i == 0){
-             cardsHtml += '<h2>20/200 Million</h2>';
-             cardsHtml += '<span> NT: 658 </span>';
-         }else if(i == 1){
-             cardsHtml += '<h2>20/200 Million</h2>';
-             cardsHtml += '<span class="discount"> NT: 2212 </span>';
-             cardsHtml += '<span> NT: 1920 </span>';
-         }else if(i == 2){
-             cardsHtml += '<h2>20/200 Million</h2>';
-             cardsHtml += '<h2>20/400 Million</h2>';
-             cardsHtml += '<span> NT: 2309 </span>';
-         }else if(i == 3){
-             cardsHtml += '<h2>Other Options?</h2>';
-         }
-
          cardsHtml += '</div>';
          cardsHtml += '</div>';
          cardsHtml += '<div class="card-block">';
          cardsHtml += '<div class="card-content">';
-         if(i == 0 || i == 2){
-             cardsHtml += '<h3 class="card-title">1 year</h3>';
+         if(i == 0){
+             cardsHtml += '<h4>20/200 百萬</h4>';
+             cardsHtml += '<span> NT: 658 </span>';
          }else if(i == 1){
-             cardsHtml += '<h3 class="card-title">2 year</h3>';
+             cardsHtml += '<h4>20/200 百萬</h4>';
+             cardsHtml += '<span class="discount"> NT: 2212 </span>';
+             cardsHtml += '<span> NT: 1920 </span>';
+         }else if(i == 2){
+             cardsHtml += '<h4>20/200 百萬</h4>';
+             cardsHtml += '<h4>20/400 百萬</h4>';
+             cardsHtml += '<span> NT: 2309 </span>';
          }else if(i == 3){
-             cardsHtml += '<h3 class="card-title"></h3>';
+             cardsHtml += '<h4>其他方案?</h4>';
+         }
+
+         if(i == 0 || i == 2){
+             cardsHtml += '<p class="card-title">1 年</p>';
+         }else if(i == 1){
+             cardsHtml += '<p class="card-title">2 </p>';
+         }else if(i == 3){
+             cardsHtml += '<p class="card-title"></p>';
          }
 
          if(i == 0){
-             cardsHtml += '<p class="card-text">CTPL</p>';
+             cardsHtml += '<p class="card-text">強制險</p>';
          }else if(i == 1){
-             cardsHtml += '<p class="card-text">CTPL + Driver</p>';
+             cardsHtml += '<p class="card-text">強制險 + 駕駛人</p>';
          }else if(i == 2 ){
-             cardsHtml += '<p class="card-text">CTPL + Driver + VTPL</p>';
+             cardsHtml += '<p class="card-text">強制險 + 駕駛人 + 第三責任</p>';
          }else if(i == 3){
              cardsHtml += '<p class="card-text"></p>';
          }
@@ -69,6 +78,7 @@ $(function(){
          }else{
              cardsHtml += '<button  class="btn btn-default productGo">選擇</button>';
          }
+         cardsHtml += '</div>';
          cardsHtml += '</div>';
          cardsHtml += '</div>';
 
@@ -195,9 +205,11 @@ $(function(){
     $(document).on('click', '.btnContainer button', function(){
         $.mobile.loading('show');
         $(this).addClass('animated fadeOutUp');
+
         setTimeout(function(){
             $('#slideOfCardCc').hide();
             $('#selectedCardCc').removeClass('hide');
+            $('#selectedCardCc').addClass('animated slideInRight');
 
         }, 1000);
 
