@@ -100,7 +100,7 @@ div.card-block {
     div.card.col-sm-3 {
         min-width: 360px;
         top: -185px;
-        left: 20%;
+        /*left: 20%;*/
     }
 }
 
@@ -128,7 +128,6 @@ div.card-block {
               and (max-width: 568px)
 {
     div.card.col-sm-3 {
-        left: 7%;
         top: -275px;
     }
 }
@@ -145,7 +144,7 @@ and (max-width: 625px)
 and (max-width: 767px)
 {
     div.card.col-sm-3 {
-        left: 20%;
+        /*left: 20%;*/
     }
 }
 
@@ -195,19 +194,278 @@ and (max-width: 767px)
 }
 
 #registerBtn {
-    color: #fff;
-    background-color: #989797;
-    border-color: #8e8e8e;
+    background: rgba(0, 0, 0, 0.36);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 9px 40px 18px 40px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+#registerBtn:hover {
+    background: #ffffff;
+    text-decoration: none;
+}
+
+#registerBtn:hover h3 {
+    color: #e84566;
+    text-decoration: none;
+}
+
+#loginBtn {
+    background: #e84566;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 9px 40px 18px 40px;
+    text-decoration: none;
+    border: 1px solid #777777;
+}
+
+#loginBtn:hover {
+    background: rgba(255, 255, 255, 0.81);
+    color: #e84566;
+
 }
 
 #registerFormDiv, #vehiFormDiv  {
     margin-top: 80px;
-    padding: 0px 40px;
+    margin-bottom: 40px;
+}
+
+#registerFormDiv .ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a{
+    font-size:16px;
+    border-style:solid;
+    border-width:2px;
+    text-align:left;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-box-shadow: 0;
+    -moz-box-shadow: 0;
+    box-shadow: 0;
+    padding: 6px 15px;
+    border-color: #ccc !important;
+    box-shadow: none !important;
+}
+
+#registerFormDiv .ui-select {
+    font-size:16px;
+    border-style:solid;
+    border-width:2px;
+    text-align:left;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-box-shadow: 0;
+    -moz-box-shadow: 0;
+    padding: 3px 15px;
+    box-shadow: 0;
+    border-color: #ccc !important;
+    box-shadow: none !important;
+}
+
+#registerFormDiv .ui-page-theme-a .ui-radio-on:after, html .ui-bar-a .ui-radio-on:after, html .ui-body-a .ui-radio-on:after, html body .ui-group-theme-a .ui-radio-on:after, .ui-btn.ui-radio-on.ui-btn-a:after {
+    border-color: #e84566!important;
+}
+
+#registerFormDiv .ui-btn.ui-checkbox-off:after, .ui-btn.ui-checkbox-on:after, .ui-btn.ui-radio-off:after, .ui-btn.ui-radio-on:after {
+    width: 10px!important;
+    height: 10px!important;
+    margin: -5px 0px 18px 4px!important;
+    border-color: #ffffff!important;
+
+}
+
+#registerFormDiv .ui-btn-icon-right:after {
+
+}
+
+#registerFormDiv .ui-btn {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+
+#registerFormDiv .form-control {
+    box-shadow: none !important;
+}
+
+.divLine {
+    border-bottom: 1px solid #e84566;
 }
 
 #registerFormDiv .ui-checkbox {
    display: inline-block;
  }
+
+.progress-bar {
+    text-shadow: none;
+}
+
+#registerFormDiv legend, #vehiFormDiv legend {
+    color: #e84566;
+}
+
+#registerFormDiv label, #vehiFormDiv label {
+    padding-top: 18px;
+    text-align: left;
+}
+
+#registerFormDiv .row, #vehiFormDiv .row {
+    background-color: white;
+    padding: 20px;
+}
+
+
+
+
+#registerFormDiv, #vehiFormDiv  {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+#registerFormDiv .ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a{
+    font-size:16px;
+    border-style:solid;
+    border-width:2px;
+    text-align:left;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-box-shadow: 0;
+    -moz-box-shadow: 0;
+    box-shadow: 0;
+    padding: 6px 15px;
+    border-color: #ccc !important;
+    box-shadow: none !important;
+}
+
+#registerFormDiv .ui-select {
+    font-size:16px;
+    border-style:solid;
+    border-width:2px;
+    text-align:left;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-box-shadow: 0;
+    -moz-box-shadow: 0;
+    padding: 3px 15px;
+    box-shadow: 0;
+    border-color: #ccc !important;
+    box-shadow: none !important;
+}
+
+#registerFormDiv .ui-page-theme-a .ui-radio-on:after, html .ui-bar-a .ui-radio-on:after, html .ui-body-a .ui-radio-on:after, html body .ui-group-theme-a .ui-radio-on:after, .ui-btn.ui-radio-on.ui-btn-a:after {
+    border-color: #e84566!important;
+}
+
+#registerFormDiv .ui-btn.ui-checkbox-off:after, .ui-btn.ui-checkbox-on:after, .ui-btn.ui-radio-off:after, .ui-btn.ui-radio-on:after {
+    width: 10px!important;
+    height: 10px!important;
+    margin: -5px 0px 18px 4px!important;
+    border-color: #ffffff!important;
+
+}
+
+#registerFormDiv .ui-btn-icon-right:after {
+
+}
+
+#registerFormDiv .ui-btn {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+
+#registerFormDiv .form-control {
+    box-shadow: none !important;
+}
+
+.divLine {
+    border-bottom: 1px solid #e84566;
+}
+
+#registerFormDiv .ui-checkbox {
+    display: inline-block;
+}
+
+#vehiFormDiv .ui-body-a, .ui-page-theme-a .ui-body-inherit, html .ui-bar-a .ui-body-inherit, html .ui-body-a .ui-body-inherit, html body .ui-group-theme-a .ui-body-inherit, html .ui-panel-page-container-a{
+    font-size:16px;
+    border-style:solid;
+    border-width:2px;
+    text-align:left;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-box-shadow: 0;
+    -moz-box-shadow: 0;
+    box-shadow: 0;
+    padding: 6px 15px;
+    border-color: #ccc !important;
+    box-shadow: none !important;
+}
+
+#vehiFormDiv .ui-select {
+    font-size:16px;
+    border-style:solid;
+    border-width:2px;
+    text-align:left;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-box-shadow: 0;
+    -moz-box-shadow: 0;
+    padding: 3px 15px;
+    box-shadow: 0;
+    border-color: #ccc !important;
+    box-shadow: none !important;
+}
+
+#vehiFormDiv .ui-page-theme-a .ui-radio-on:after, html .ui-bar-a .ui-radio-on:after, html .ui-body-a .ui-radio-on:after, html body .ui-group-theme-a .ui-radio-on:after, .ui-btn.ui-radio-on.ui-btn-a:after {
+    border-color: #e84566!important;
+}
+
+#vehiFormDiv .ui-btn.ui-checkbox-off:after, .ui-btn.ui-checkbox-on:after, .ui-btn.ui-radio-off:after, .ui-btn.ui-radio-on:after {
+    width: 10px!important;
+    height: 10px!important;
+    margin: -5px 0px 18px 4px!important;
+    border-color: #ffffff!important;
+
+}
+
+#vehiFormDiv .ui-btn-icon-right:after {
+
+}
+
+#vehiFormDiv .ui-btn {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+
+#vehiFormDiv .form-control {
+    box-shadow: none !important;
+}
+
+.divLine {
+    border-bottom: 1px solid #e84566;
+}
+
+#vehiFormDiv .ui-checkbox {
+    display: inline-block;
+}
 
 div.man {
     background-image: url('../css/images/man.png');
@@ -319,6 +577,19 @@ a.navbar-brand {
 
 button.navbar-toggle.ui-btn.ui-shadow.ui-corner-all {
     color: #E84566;
+}
+
+button#toGoNext, button#toSeeInfoNext {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #e84566!important;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    text-shadow: none;
 }
 
 .footer {
@@ -501,9 +772,9 @@ div.col-xs-12.text-center h4 {
 }
 
 #selectedCardCc input.date-input {
-    background-color: black;
     text-shadow: none;
     color: white;
+    border-color: #ccc;
 }
 
 @media screen and (max-width:320px){
@@ -530,9 +801,33 @@ div.col-xs-12.text-center h4 {
 }
 
 body button#submitedBtn {
-    color: #E84566;
     max-width: 250px;
     margin: auto;
+
+}
+
+button#submitedBtn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #e84566;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+button#submitedBtn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+body button#submitedBtn:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.29);
 }
 
 .box h1, .box h2, .box h3, .box h4, .box span, .box p {

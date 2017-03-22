@@ -3,10 +3,6 @@
  */
 $(function(){
 
- $('.tlt').textillate({
-     in: { effect: 'fadeInLeft' },
- });
-
  $(document).on('click', '#submitedBtn', function(){
    $.mobile.loading('show');
    $('#firstSlide').addClass('animated fadeOutLeft');
@@ -110,11 +106,22 @@ $(function(){
                  $.each(items, function(index, item){
                      var cardsHtmlMore = '';
                      cardsHtmlMore += '<div class="card col-sm-3 animated slideInRight">';
+                     cardsHtmlMore += '<div class="box">';
+                     cardsHtmlMore += '<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">';
+                     cardsHtmlMore += '<line class="top" x1="0" y1="0" x2="900" y2="0"/>';
+                     cardsHtmlMore += '<line class="left" x1="0" y1="460" x2="0" y2="-920"/>';
+                     cardsHtmlMore += '<line class="bottom" x1="300" y1="460" x2="-600" y2="460"/>';
+                     cardsHtmlMore += '<line class="right" x1="300" y1="0" x2="300" y2="1380"/>';
+                     cardsHtmlMore += '</svg>';
                      cardsHtmlMore += '<div class="img-responsive">';
                      cardsHtmlMore += '<div class="productIntro">';
 
+                     cardsHtmlMore += '</div>';
+                     cardsHtmlMore += '</div>';
+                     cardsHtmlMore += '<div class="card-block">';
+                     cardsHtmlMore += '<div class="card-content">';
                      for(var i = 0; i < item.pictureTitle.length; i++){
-                         cardsHtmlMore += '<h2>' + item.pictureTitle[i]  + '</h2>';
+                         cardsHtmlMore += '<h4>' + item.pictureTitle[i]  + '</h4>';
                      }
 
                      if(item.discount == "true"){
@@ -123,14 +130,11 @@ $(function(){
                      }else{
                          cardsHtmlMore += '<span>' + item.picturePrice + '</span>';
                      }
-                     cardsHtmlMore += '</div>';
-                     cardsHtmlMore += '</div>';
-                     cardsHtmlMore += '<div class="card-block">';
-                     cardsHtmlMore += '<div class="card-content">';
-                     cardsHtmlMore += '<h3 class="card-title">' + item.years + '</h3>';
+                     cardsHtmlMore += '<p class="card-title">' + item.years + '</p>';
                      cardsHtmlMore += '<p class="card-text">' + item['card-text'] + '</p>';
                      cardsHtmlMore += '</div>';
                      cardsHtmlMore += '<button class="btn btn-default productGo">選擇</button>';
+                     cardsHtmlMore += '</div>';
                      cardsHtmlMore += '</div>';
                      cardsHtmlMore += '</div>';
 
@@ -149,18 +153,20 @@ $(function(){
         setTimeout(function(){
             $('#slide').empty();
             $('#slide').css({
-                "top": "283px"
+                "top": "240px"
             });
             $('.intro-body').css({
                 "height": "auto"
             });
             var registerHtml = '';
-            registerHtml += '<div class="loginDiv col-sm-6">';
-            registerHtml += '<button id="loginBtn" class="btn btn-default"><h1>登入</h1></button>';
+            registerHtml += '<div class="col-sm-4"></div>';
+            registerHtml += '<div class="loginDiv col-sm-2">';
+            registerHtml += '<button id="loginBtn" class="btn btn-default"><h3>登入</h3></button>';
             registerHtml += '</div>';
-            registerHtml += '<div class="registerDiv col-sm-6">';
-            registerHtml += '<button id="registerBtn" class="btn btn-primary"><h1>註冊</h1></button>';
+            registerHtml += '<div class="registerDiv col-sm-2">';
+            registerHtml += '<button id="registerBtn" class="btn btn-primary"><h3>註冊</h3></button>';
             registerHtml += '</div>';
+            registerHtml += '<div class="col-sm-4"></div>';
 
             $('#slide').append(registerHtml);
         }, 1000);
