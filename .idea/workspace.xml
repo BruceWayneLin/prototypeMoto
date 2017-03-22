@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f9ff3c4-5620-4967-aec0-2e048f2a882f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comfirmation.html" afterPath="$PROJECT_DIR$/comfirmation.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/myCustomer.css" afterPath="$PROJECT_DIR$/css/myCustomer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/myCustomer.js" afterPath="$PROJECT_DIR$/js/myCustomer.js" />
-    </list>
+    <list default="true" id="1f9ff3c4-5620-4967-aec0-2e048f2a882f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -215,10 +210,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="350" />
-    <option name="y" value="170" />
+    <option name="x" value="-296" />
+    <option name="y" value="70" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -369,16 +364,16 @@
       <workItem from="1489656660525" duration="31930000" />
       <workItem from="1490013882163" duration="4061000" />
       <workItem from="1490058729146" duration="35833000" />
-      <workItem from="1490181358584" duration="3043000" />
+      <workItem from="1490181358584" duration="3641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159727000" />
+    <option name="totallyTimeSpent" value="160325000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="350" y="170" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="-296" y="70" width="1936" height="1052" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
