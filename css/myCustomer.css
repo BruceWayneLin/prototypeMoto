@@ -320,7 +320,7 @@ and (max-width: 767px)
     text-align: left;
 }
 
-#registerFormDiv .row, #vehiFormDiv .row {
+#registerFormDiv .row, #vehiFormDiv .row, div.loginForm.container, div#contentInfo{
     background-color: white;
     padding: 20px;
 }
@@ -328,7 +328,7 @@ and (max-width: 767px)
 
 
 
-#registerFormDiv, #vehiFormDiv  {
+#registerFormDiv, #vehiFormDiv {
     margin-top: 80px;
     margin-bottom: 40px;
 }

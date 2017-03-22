@@ -4,10 +4,6 @@
     <list default="true" id="1f9ff3c4-5620-4967-aec0-2e048f2a882f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/myCustomer.css" afterPath="$PROJECT_DIR$/css/myCustomer.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/myCustomer.js" afterPath="$PROJECT_DIR$/js/myCustomer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registerForm.html" afterPath="$PROJECT_DIR$/registerForm.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vehicleForm.html" afterPath="$PROJECT_DIR$/vehicleForm.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -107,20 +103,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myCustomer.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="myCustomer.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/myCustomer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="581" column="37" lean-forward="false" selection-start-line="581" selection-start-column="37" selection-end-line="581" selection-end-column="37" />
+            <state relative-caret-position="419">
+              <caret line="337" column="23" lean-forward="true" selection-start-line="337" selection-start-column="23" selection-end-line="337" selection-end-column="23" />
               <folding>
                 <element signature="e#4073#4123#0" expanded="false" />
-                <element signature="e#6241#6291#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vehicleForm.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vehicleForm.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vehicleForm.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="290">
@@ -172,6 +167,7 @@
       <find>radius</find>
       <find>registerFormDiv</find>
       <find>toGoNext</find>
+      <find>form</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -204,8 +200,8 @@
         <option value="$PROJECT_DIR$/js/myCustomer.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/registerForm.html" />
-        <option value="$PROJECT_DIR$/css/myCustomer.css" />
         <option value="$PROJECT_DIR$/vehicleForm.html" />
+        <option value="$PROJECT_DIR$/css/myCustomer.css" />
       </list>
     </option>
   </component>
@@ -433,12 +429,12 @@
       <workItem from="1489564360916" duration="531000" />
       <workItem from="1489656660525" duration="31930000" />
       <workItem from="1490013882163" duration="4061000" />
-      <workItem from="1490058729146" duration="35288000" />
+      <workItem from="1490058729146" duration="35833000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156139000" />
+    <option name="totallyTimeSpent" value="156684000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="7" y="23" width="1280" height="773" extended-state="6" />
@@ -536,7 +532,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#4073#4123#0" expanded="false" />
-            <element signature="e#6241#6291#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -603,7 +598,6 @@
           <caret line="187" column="39" lean-forward="false" selection-start-line="187" selection-start-column="39" selection-end-line="187" selection-end-column="39" />
           <folding>
             <element signature="e#4073#4123#0" expanded="false" />
-            <element signature="e#6241#6291#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -640,7 +634,6 @@
           <caret line="187" column="39" lean-forward="false" selection-start-line="187" selection-start-column="39" selection-end-line="187" selection-end-column="39" />
           <folding>
             <element signature="e#4073#4123#0" expanded="false" />
-            <element signature="e#6241#6291#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -670,7 +663,6 @@
           <caret line="2" column="17" lean-forward="true" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
           <folding>
             <element signature="e#4073#4123#0" expanded="false" />
-            <element signature="e#6241#6291#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -825,17 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/myCustomer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="581" column="37" lean-forward="false" selection-start-line="581" selection-start-column="37" selection-end-line="581" selection-end-column="37" />
-          <folding>
-            <element signature="e#4073#4123#0" expanded="false" />
-            <element signature="e#6241#6291#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/registerForm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -852,6 +833,16 @@
         <state relative-caret-position="290">
           <caret line="173" column="121" lean-forward="false" selection-start-line="173" selection-start-column="121" selection-end-line="173" selection-end-column="121" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/myCustomer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="337" column="23" lean-forward="true" selection-start-line="337" selection-start-column="23" selection-end-line="337" selection-end-column="23" />
+          <folding>
+            <element signature="e#4073#4123#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
