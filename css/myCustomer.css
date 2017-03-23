@@ -579,7 +579,7 @@ button.navbar-toggle.ui-btn.ui-shadow.ui-corner-all {
     color: #E84566;
 }
 
-button#toGoNext, button#toSeeInfoNext {
+button#toGoNext, button#toSeeInfoNext, #goingToPay {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;

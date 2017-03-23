@@ -17,12 +17,6 @@ $(function(){
          var cardsHtml  = '';
          cardsHtml += '<div class="card col-sm-3 animated slideInRight">';
          cardsHtml += '<div class="box">';
-         cardsHtml += '<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">';
-         cardsHtml += '<line class="top" x1="0" y1="0" x2="900" y2="0"/>';
-         cardsHtml += '<line class="left" x1="0" y1="460" x2="0" y2="-920"/>';
-         cardsHtml += '<line class="bottom" x1="300" y1="460" x2="-600" y2="460"/>';
-         cardsHtml += '<line class="right" x1="300" y1="0" x2="300" y2="1380"/>';
-         cardsHtml += '</svg>';
          cardsHtml += '<div class="img-responsive">';
 
          if(i == 3){
@@ -107,12 +101,6 @@ $(function(){
                      var cardsHtmlMore = '';
                      cardsHtmlMore += '<div class="card col-sm-3 animated slideInRight">';
                      cardsHtmlMore += '<div class="box">';
-                     cardsHtmlMore += '<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">';
-                     cardsHtmlMore += '<line class="top" x1="0" y1="0" x2="900" y2="0"/>';
-                     cardsHtmlMore += '<line class="left" x1="0" y1="460" x2="0" y2="-920"/>';
-                     cardsHtmlMore += '<line class="bottom" x1="300" y1="460" x2="-600" y2="460"/>';
-                     cardsHtmlMore += '<line class="right" x1="300" y1="0" x2="300" y2="1380"/>';
-                     cardsHtmlMore += '</svg>';
                      cardsHtmlMore += '<div class="img-responsive">';
                      cardsHtmlMore += '<div class="productIntro">';
 
