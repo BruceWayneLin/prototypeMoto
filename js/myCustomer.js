@@ -42,6 +42,10 @@ $(function(){
      });
      $('#slide').removeClass('firstIntro');
 
+     $('#slide').css({
+         "top" : "-167px",
+     });
+
    for(var i = 0; i < 4; i++)
      {
          var cardsHtml  = '';
