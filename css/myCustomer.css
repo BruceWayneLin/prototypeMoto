@@ -3,24 +3,29 @@
     height: auto;
     text-align: center;
     color: #fff;
-    background: url(../css/images/motobak.jpg) bottom center no-repeat #000;
+    background: url(../css/images/bakballon.jpg) bottom center no-repeat #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    min-height: 685px;
-    max-height: 685px;
+
 }
 
 button.navbar-toggle.ui-btn.ui-shadow.ui-corner-all {
     display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     button.navbar-toggle.ui-btn.ui-shadow.ui-corner-all {
         display: initial;
         max-width: 100px;
         margin: 5px 5px 5px 5px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .navbar-header {
+        margin-left: 33px!important;
     }
 }
 
@@ -120,7 +125,13 @@ div.card-block {
 
 @media screen and (min-width: 460px){
     div.card.col-sm-3 {
-        top: -180px;
+        top: -315px;
+    }
+}
+
+@media screen and (min-width: 1201px){
+    div.card.col-sm-3 {
+        top: -120px;
     }
 }
 
@@ -203,7 +214,6 @@ and (max-width: 767px)
     font-size: 18px;
     padding: 9px 40px 18px 40px;
     text-decoration: none;
-    border: 1px solid white;
 }
 
 #registerBtn:hover {
@@ -266,7 +276,6 @@ and (max-width: 767px)
     border-radius: 100px;
     -webkit-box-shadow: 0;
     -moz-box-shadow: 0;
-    padding: 3px 15px;
     box-shadow: 0;
     border-color: #ccc !important;
     box-shadow: none !important;
@@ -325,7 +334,9 @@ and (max-width: 767px)
     padding: 20px;
 }
 
-
+.loginForm {
+    border: 1px solid #ccc;
+}
 
 
 #registerFormDiv, #vehiFormDiv {
@@ -363,6 +374,12 @@ and (max-width: 767px)
     box-shadow: 0;
     border-color: #ccc !important;
     box-shadow: none !important;
+}
+
+@media screen and (max-width:1200px) and (min-width:920px) {
+    #registerFormDiv .ui-select {
+        padding: 3px 0px;
+    }
 }
 
 #registerFormDiv .ui-page-theme-a .ui-radio-on:after, html .ui-bar-a .ui-radio-on:after, html .ui-body-a .ui-radio-on:after, html body .ui-group-theme-a .ui-radio-on:after, .ui-btn.ui-radio-on.ui-btn-a:after {
@@ -559,7 +576,7 @@ div.talkBubble {
 }
 
 a.navbar-brand {
-    background-image: url('../css/images/logo.png');
+    background-image: url('../css/images/fakelogo.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 180px;
@@ -568,18 +585,22 @@ a.navbar-brand {
 }
 
 .navbar-default {
-    min-height: 60px;
+    padding-top: 15px;
+    min-height: 75px;
+    background-color:transparent;
 }
 
 .fa.fa-bars {
-    color: #E84566;
+    color: white;
 }
 
 button.navbar-toggle.ui-btn.ui-shadow.ui-corner-all {
-    color: #E84566;
+    color: white;
+    background-color: transparent;
+    text-shadow: none;
 }
 
-button#toGoNext, button#toSeeInfoNext, #goingToPay {
+button#toGoNext, button#toSeeInfoNext, #goingToPay, #confirmAndBak, #cancelbtn, #loginBakIndex {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
@@ -597,7 +618,8 @@ button#toGoNext, button#toSeeInfoNext, #goingToPay {
 }
 
 ul.nav.navbar-nav li a {
-    color: #E84566;
+    color: white;
+    text-shadow: 1px 1px #e84566;
 }
 
 ul.nav.navbar-nav li a:hover{
@@ -722,6 +744,7 @@ span.selectpicker {
 
 .intro-body .container {
     padding-top: 170px;
+    padding-bottom: 140px;
 }
 
 .btnContainer button {
@@ -729,7 +752,7 @@ span.selectpicker {
 }
 
 .tlt {
-    text-shadow: none;
+    text-shadow: 1px 1px #e84566;
 }
 
 div.btnContainer {
@@ -845,4 +868,34 @@ body button#submitedBtn:hover {
 #selectedCardCc div.ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset {
     max-width: 250px;
     margin: auto;
+}
+
+ul.list-group.text-center {
+    border: 1px solid #e84566;
+}
+
+.appreContent.highlight {
+    padding: 10px 0px;
+    background-color: white;
+    margin: 5px;
+}
+
+.appreContent.highlight h1 {
+    color: #e84566;
+}
+
+#firstSlide {
+    background-color: rgba(0, 0, 0, 0.16);
+    padding-bottom: 35px;
+}
+
+#circleInfo {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.rounded-circle {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
 }

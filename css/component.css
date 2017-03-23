@@ -2,6 +2,7 @@
 	width: 256px;
 	height: 460px;
 	position: relative;
+	margin-top: 5px;
 	background: rgba(255,255,255,1);
 	display: inline-block;
 	cursor: pointer;

@@ -3,12 +3,42 @@
  */
 $(function(){
 
+ $(document).on('scroll', function(){
+     var disNavBar = $('.navbar').offset().top;
+     if(disNavBar >= 160){
+         $('.navbar-default').css({
+             "background-color": "white",
+         });
+         $('.fa.fa-bars').css({
+             "color" : "#e84566",
+         });
+         $('.navbar-toggle').css({
+             "color" : "#e84566",
+         })
+     }else{
+         $('.navbar-default').css({
+             "background-color": "transparent",
+         });
+         $('.fa.fa-bars').css({
+             "color" : "white",
+         });
+         $('.navbar-toggle').css({
+             "color" : "white",
+         })
+     }
+
+ })
+
  $(document).on('click', '#submitedBtn', function(){
    $.mobile.loading('show');
    $('#firstSlide').addClass('animated fadeOutLeft');
    $(this).addClass('animated fadeOutUp');
      $('.intro-body .container').css({
-         "padding-top" : "56px",
+         "padding-bottom" : "10px",
+         "padding-top" : "20px"
+     });
+     $('.intro-body').css({
+         "padding-bottom" : "40px",
      });
      $('#slide').removeClass('firstIntro');
 
@@ -47,7 +77,7 @@ $(function(){
          if(i == 0 || i == 2){
              cardsHtml += '<p class="card-title">1 年</p>';
          }else if(i == 1){
-             cardsHtml += '<p class="card-title">2 </p>';
+             cardsHtml += '<p class="card-title">2 年</p>';
          }else if(i == 3){
              cardsHtml += '<p class="card-title"></p>';
          }
@@ -64,9 +94,9 @@ $(function(){
          cardsHtml += '</div>';
 
          if(i == 3){
-             cardsHtml += '<button  class="btn btn-default productOther">選擇</button>';
+             cardsHtml += '<button  class="btn btn-default productOther" value="2">選擇</button>';
          }else{
-             cardsHtml += '<button  class="btn btn-default productGo">選擇</button>';
+             cardsHtml += '<button  class="btn btn-default productGo" value="0">選擇</button>';
          }
          cardsHtml += '</div>';
          cardsHtml += '</div>';
@@ -84,10 +114,7 @@ $(function(){
      var toCallAjax = function() {
          $('#slide').empty();
          $('#slide').css({
-             "top": "250px"
-         });
-         $('#intro').css({
-             "margin-top": "50px"
+             "top": "190px"
          });
 
          $.ajax({
@@ -121,7 +148,7 @@ $(function(){
                      cardsHtmlMore += '<p class="card-title">' + item.years + '</p>';
                      cardsHtmlMore += '<p class="card-text">' + item['card-text'] + '</p>';
                      cardsHtmlMore += '</div>';
-                     cardsHtmlMore += '<button class="btn btn-default productGo">選擇</button>';
+                     cardsHtmlMore += '<button class="btn btn-default productGo" value="1">選擇</button>';
                      cardsHtmlMore += '</div>';
                      cardsHtmlMore += '</div>';
                      cardsHtmlMore += '</div>';
@@ -138,10 +165,17 @@ $(function(){
         $.mobile.loading('show');
         $(this).parents('.card').removeClass('slideInRight').addClass('slideOutUp');
         $(this).parents('#slide').find('.slideInRight').removeClass('slideInRight').addClass('flipOutY');
+        console.log($(this).val());
+        if($(this).val() == 1){
+            $('#slide').css({
+                "top": "0px",
+            });
+        }
         setTimeout(function(){
             $('#slide').empty();
             $('#slide').css({
-                "top": "240px"
+                "margin-top": "180px",
+                "margin-bottom": "180px"
             });
             $('.intro-body').css({
                 "height": "auto"
