@@ -35,7 +35,7 @@ $(function(){
    $(this).addClass('animated fadeOutUp');
      $('.intro-body .container').css({
          "padding-bottom" : "10px",
-         "padding-top" : "20px"
+         "padding-top" : "140px"
      });
      $('.intro-body').css({
          "padding-bottom" : "40px",
@@ -171,6 +171,10 @@ $(function(){
         $(this).parents('#slide').find('.slideInRight').removeClass('slideInRight').addClass('flipOutY');
         console.log($(this).val());
         if($(this).val() == 1){
+            $('#slide').css({
+                "top": "0px",
+            });
+        }else{
             $('#slide').css({
                 "top": "0px",
             });

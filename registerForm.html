@@ -96,7 +96,13 @@
                             <div class="col-sm-6">
                                 <label class="control-label">登入資料</label>
                             </div>
-                            <div class="col-sm-6"></div>
+                            <div class="col-sm-6">
+                                <div id="app">
+                                    <div>
+                                        <img class="rounded-circle" v-bind:style="avatarStyle"  v-bind:src="url" alt="">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-6"></div>
@@ -273,3 +279,21 @@
 </div>
 </body>
 </html>
+
+<script>
+    new Vue({
+        el : '#app',
+        data () {
+            return {
+                otherAvatars: [
+                    {avatarUrl : ""}
+                ],
+                url: '../prototypeMoto/css/images/avatarIcon/user.png',
+                avatarStyle: {
+                    height: '140px',
+                    width: '140px'
+                }
+            }
+        }
+    });
+</script>
